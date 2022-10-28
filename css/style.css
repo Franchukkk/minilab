@@ -140,7 +140,7 @@ main {
 .InterestingProducts {
     width: 1170rem;
     height: 536rem;
-    background-image: url(../css/img/Layer\ 4.png);
+    background-image: url(../css/img/InterestingTabletBG.jpg);
     background-repeat: no-repeat;
     background-color: #c1cfd3;
     margin: 27rem auto;
@@ -328,7 +328,7 @@ figcaption a:hover {
 }
 
 .MacbookForFree {
-    background-image: url(../css/img/Layer\ 5.png);
+    background-image: url(../css/img/MacbookForFreeBG.jpg);
     width: 1170rem;
     height: 540rem;
     margin: auto;
@@ -431,21 +431,21 @@ figcaption a:hover {
 }
 
 #a1:before {
-    content: url(../css/img/Rectangle\ 7.png);
+    content: url(../css/img/Edge.png);
     width: 36rem;
     height: 36rem;
 }
 
 
 #a2:before {
-    content: url(../css/img/Rectangle\ 7\ copy\ 2.png);
+    content: url(../css/img/Chrome.png);
     width: 36rem;
     height: 36rem;
 }
 
 
 #a3:before {
-    content: url(../css/img/Rectangle\ 7\ copy\ 3.png);
+    content: url(../css/img/Opera.png);
     width: 36rem;
     height: 36rem;
 }
