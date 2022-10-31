@@ -182,6 +182,10 @@ input {
     text-decoration: none;
 }
 
+.menu li>a:hover {
+    text-decoration: underline;
+}
+
 .MenuZag {
     width: 120rem;
 }
@@ -223,6 +227,10 @@ input {
     color: #262626;
     font-family: "Segoe UI";
     text-decoration: none;
+}
+
+.look-all a:hover{
+    text-decoration: underline;
 }
 
 
