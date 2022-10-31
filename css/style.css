@@ -58,8 +58,10 @@ header ul {
     margin-right: 15rem;
 }
 
-.arr-down::before {
+.more:after {
     content: url(../css/img/arr-down.png);
+    position: relative;
+    left: 15rem;
 }
 
 .HeaderLineText a {
