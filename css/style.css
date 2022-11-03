@@ -40,6 +40,7 @@ header ul {
     column-gap: 50rem;
 }
 
+
 .SecondPartHeader {
     display: flex;
     width: 360rem;
@@ -60,10 +61,26 @@ header ul {
     display: inline-block;
 }
 
+.menuopen li:first-child{
+    width: 150rem;
+}
+
+.menuopen:hover>#asas{
+    background-color: #f2f2f2;
+}
+
+.menuopen:hover #asas>a{
+    margin-left: 25rem;
+}
+
 .more:after {
-    content: url(../css/img/arr-down.png);
+    content: url(../css/img/arr-right.png);
     position: relative;
     left: 15rem;
+}
+
+.menuopen:hover .more:after{
+    content: url(../css/img/arr-down.png);
 }
 
 .more {
