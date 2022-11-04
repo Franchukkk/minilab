@@ -7,10 +7,12 @@ html {
     font-size: 1px;
 }
 
-
-
 a {
     cursor: url(../css/cursor.cur), auto;
+}
+
+body{
+    font-family: 'Segoe UI';
 }
 
 .header-line {
@@ -91,7 +93,6 @@ header ul {
     font-size: 15rem;
     line-height: 4em;
     color: #262626;
-    font-family: "Segoe UI";
     text-align: right;
     text-decoration: none;
     transition: 0.5s;
@@ -124,15 +125,23 @@ input {
     font-size: 15rem;
     line-height: 1em;
     color: #262626;
-    font-family: 'Segoe UI', sans-serif;
     text-align: right;
     text-decoration: none;
+    transition: 0.2s;
 }
 
 .search a::after {
     content: url(../css/img/search.png);
     position: relative;
     left: 50rem;
+}
+
+.search a:hover{
+    filter: brightness(0.5)
+}
+
+.search-button{
+    width: 10px;
 }
 
 .BuyBasket {
@@ -156,7 +165,6 @@ input {
     font-size: 15rem;
     line-height: 2em;
     color: #262626;
-    font-family: 'Segoe UI', sans-serif;
     text-align: right;
     text-decoration: none;
 }
@@ -190,7 +198,6 @@ input {
     line-height: 1.4em;
     color: #262626;
     font-weight: 600;
-    font-family: 'Segoe UI', sans-serif;
 }
 
 .menu ul {
@@ -201,7 +208,6 @@ input {
     font-size: 15rem;
     line-height: 2em;
     color: #616161;
-    font-family: 'Segoe UI', sans-serif;
     text-decoration: none;
 }
 
@@ -238,7 +244,7 @@ input {
 }
 
 .look-all-wrap {
-    width: 150rem;
+    width: 100%;
     margin: 8rem auto;
 }
 
@@ -248,14 +254,12 @@ input {
     line-height: 1.7em;
     text-transform: uppercase;
     color: #262626;
-    font-family: 'Segoe UI', sans-serif;
     text-decoration: none;
 }
 
 .look-all a:hover {
     text-decoration: underline;
 }
-
 
 main {
     margin-bottom: 54rem;
@@ -281,7 +285,6 @@ h1 {
     line-height: 48rem;
     color: #ffffff;
     font-weight: bold;
-    font-family: "Segoe UI";
     margin-bottom: 21rem;
 }
 
@@ -289,7 +292,6 @@ h1 {
     font-size: 16rem;
     line-height: 1.5em;
     color: #ffffff;
-    font-family: 'Segoe UI', sans-serif;
     margin-bottom: 30rem;
 }
 
@@ -300,7 +302,6 @@ h1 {
     text-transform: uppercase;
     color: #0d0d0d;
     font-weight: 600;
-    font-family: 'Segoe UI', sans-serif;
     text-align: center;
 }
 
@@ -313,7 +314,6 @@ h1 {
     letter-spacing: 1px;
     text-transform: uppercase;
     color: #262626;
-    font-family: 'Segoe UI', sans-serif;
     text-align: right;
     text-decoration: none;
 }
@@ -425,7 +425,6 @@ figcaption a:after {
     text-transform: uppercase;
     color: #0d0d0d;
     font-weight: 700;
-    font-family: 'Segoe UI', sans-serif;
     text-align: center;
     margin-bottom: 40rem;
 }
@@ -435,7 +434,6 @@ figcaption h3 {
     line-height: 1.2em;
     color: #0d0d0d;
     font-weight: bold;
-    font-family: 'Segoe UI', sans-serif;
     margin-bottom: 20rem;
 }
 
@@ -449,7 +447,6 @@ figcaption p {
     font-size: 15rem;
     line-height: 1.4em;
     color: #262626;
-    font-family: 'Segoe UI', sans-serif;
 }
 
 figcaption a {
@@ -458,7 +455,6 @@ figcaption a {
     line-height: 1.5em;
     text-transform: uppercase;
     color: #0067b8;
-    font-family: 'Segoe UI', sans-serif;
     text-decoration: none;
     transition: 0.5s;
 }
@@ -487,7 +483,6 @@ figcaption a:hover {
     line-height: 48rem;
     color: #0d0d0d;
     font-weight: bold;
-    font-family: 'Segoe UI', sans-serif;
     margin-bottom: 30rem;
 }
 
@@ -500,7 +495,6 @@ figcaption a:hover {
     font-size: 16rem;
     line-height: 1.5em;
     color: #0d0d0d;
-    font-family: 'Segoe UI', sans-serif;
 }
 
 .MacbookForFree a {
@@ -509,7 +503,6 @@ figcaption a:hover {
     line-height: 1.7em;
     text-transform: uppercase;
     color: #ffffff;
-    font-family: 'Segoe UI', sans-serif;
     text-decoration: none;
 }
 
@@ -546,7 +539,7 @@ figcaption a:hover {
 
 .MacbookButton1 {
     display: flex;
-    padding: 10rem 20rem;
+    padding: 12rem 20rem;
 }
 
 .MacbookButton a:after {
@@ -570,7 +563,6 @@ figcaption a:hover {
     font-size: 15rem;
     line-height: 2em;
     color: #262626;
-    font-family: 'Segoe UI', sans-serif;
 }
 
 .browserslogo {
@@ -642,7 +634,6 @@ footer h4 {
     line-height: 24rem;
     color: #616161;
     font-weight: bold;
-    font-family: 'Segoe UI', sans-serif;
     padding-bottom: 24rem;
 }
 
@@ -651,7 +642,6 @@ footer a {
     font-size: 13rem;
     line-height: 19rem;
     color: #616161;
-    font-family: 'Segoe UI', sans-serif;
     padding-bottom: 16rem;
     text-decoration: none;
 }
@@ -673,14 +663,13 @@ footer a {
     font-size: 12rem;
     line-height: 19rem;
     color: #616161;
-    font-family: 'Segoe UI', sans-serif;
     padding-left: 10rem;
 }
 
 .contacts {
     display: flex;
     justify-content: space-between;
-    width: 760rem;
+    width: 810rem;
 }
 
 .contacts ul {
