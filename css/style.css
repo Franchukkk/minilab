@@ -11,8 +11,32 @@ a {
     cursor: url(../css/cursor.cur), auto;
 }
 
-body{
-    font-family: 'Segoe UI';
+@font-face {
+    font-family: 'Segoe UI Regular';
+    src: url('SegoeUI.eot');
+    src: url('SegoeUI.eot?#iefix') format('embedded-opentype'),
+    url('SegoeUI.woff') format('woff'),
+    url('SegoeUI.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    }
+
+    @font-face {
+        font-family: 'Segoe UI Bold';
+        src: url('SegoeUI-Bold.eot');
+        src: url('SegoeUI-Bold.eot?#iefix') format('embedded-opentype'),
+        url('SegoeUI-Bold.woff') format('woff'),
+        url('SegoeUI-Bold.ttf') format('truetype');
+        font-weight: normal;
+        font-style: normal;
+        }
+
+body p,a{
+    font-family: 'Segoe UI Regular';
+}
+
+body h1,h2,h3,h4{
+    font-family: 'Segoe UI Bold';   
 }
 
 .header-line {
@@ -63,15 +87,15 @@ header ul {
     display: inline-block;
 }
 
-.menuopen li:first-child{
+.menuopen li:first-child {
     width: 150rem;
 }
 
-.menuopen:hover>#asas{
+.menuopen:hover>#asas {
     background-color: #f2f2f2;
 }
 
-.menuopen:hover #asas>a{
+.menuopen:hover #asas>a {
     margin-left: 25rem;
 }
 
@@ -81,7 +105,7 @@ header ul {
     left: 15rem;
 }
 
-.menuopen:hover .more:after{
+.menuopen:hover .more:after {
     content: url(../css/img/arr-down.png);
 }
 
@@ -114,6 +138,7 @@ header ul {
 input {
     height: 35rem;
     border: none;
+    outline: none;
 }
 
 .SearchWrap {
@@ -136,11 +161,11 @@ input {
     left: 50rem;
 }
 
-.search a:hover{
+.search a:hover {
     filter: brightness(0.5)
 }
 
-.search-button{
+.search-button {
     width: 10px;
 }
 
@@ -197,7 +222,6 @@ input {
     font-size: 15rem;
     line-height: 1.4em;
     color: #262626;
-    font-weight: 600;
 }
 
 .menu ul {
@@ -257,6 +281,12 @@ input {
     text-decoration: none;
 }
 
+.look-all a:after {
+    content: url(../css/img/arr-right.png);
+    position: relative;
+    left: 12px;
+}
+
 .look-all a:hover {
     text-decoration: underline;
 }
@@ -284,7 +314,6 @@ h1 {
     font-size: 46rem;
     line-height: 48rem;
     color: #ffffff;
-    font-weight: bold;
     margin-bottom: 21rem;
 }
 
@@ -362,7 +391,7 @@ h1 {
     padding: 17rem 16rem 15rem 21rem;
 }
 
-.slide1{
+.slide1 {
     margin-bottom: 46rem;
 }
 
@@ -508,16 +537,15 @@ figcaption a:hover {
 
 .ButtonMac {
     width: 230rem;
-    height: 45rem;
     background-color: #0d0d0d;
     transition: 0.2s;
     cursor: url(../css/cursor.cur), auto;
 }
 
 .ButtonMac1 {
-    width: 230rem;
-    height: 45rem;
+    width: 210rem;
     background-color: #fff;
+    padding: 12.4rem 0 12.4rem 20rem;
     transition: 0.2s;
     cursor: url(../css/cursor.cur), auto;
 }
@@ -533,25 +561,20 @@ figcaption a:hover {
 }
 
 .MacbookButton {
-    display: flex;
     padding: 10rem 20rem;
 }
 
-.MacbookButton1 {
-    display: flex;
-    padding: 12rem 20rem;
+.ButtonMac1 a:after {
+    content: url(../css/img/arr-right.png);
+    position: relative;
+    left: 15rem;
 }
 
 .MacbookButton a:after {
     content: url(../css/img/arr-right\ \(1\).png);
     position: relative;
+    height: 10rem;
     left: 15rem;
-}
-
-.MacbookButton1 a:after {
-    content: url(../css/img/arr-right.png);
-    position: relative;
-    left: 10rem;
 }
 
 .sociality {
