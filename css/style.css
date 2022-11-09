@@ -604,31 +604,26 @@ figcaption a:hover {
     transform: scale(1.15);
 }
 
-#a1,
-#a2,
-#a3 {
+#a1 ,
+#a2 ,
+#a3  {
+    display: block;
+    background-image: url(../css/img/ChroneEdgeOpera.png);
+    width: 35rem;
+    height: 35rem;
     transition: 0.5s;
 }
 
-#a1:before {
-    content: url(../css/img/Edge.png);
-    width: 36rem;
-    height: 36rem;
+a#a2{
+    background-position: -37rem 0;
 }
 
 
-#a2:before {
-    content: url(../css/img/Chrome.png);
-    width: 36rem;
-    height: 36rem;
+a#a3{
+    background-position: 35rem 0;
 }
 
 
-#a3:before {
-    content: url(../css/img/Opera.png);
-    width: 36rem;
-    height: 36rem;
-}
 
 footer {
     width: 100%;
