@@ -86,19 +86,21 @@ header ul {
     width: 515rem;
 }
 
-.menuopen:hover .menu {
+#asas:hover .menu {
     display: inline-block;
 }
 
-.menuopen li:first-child {
-    width: 150rem;
+#asas{
+    width: 150px;
+    transition: 0.2s;
 }
 
-.menuopen:hover>#asas {
+#asas:hover {
+    width: 150px;
     background-color: #f2f2f2;
 }
 
-.menuopen:hover #asas>a {
+#asas:hover>a {
     margin-left: 25rem;
 }
 
@@ -108,7 +110,7 @@ header ul {
     left: 15rem;
 }
 
-.menuopen:hover .more:after {
+#asas:hover .more:after {
     content: url(../css/img/arr-down.png);
 }
 
@@ -210,6 +212,7 @@ input {
     padding-bottom: 13rem;
     box-sizing: border-box;
     left: 0;
+    top: 60px;
 }
 
 .MenuWrap {
